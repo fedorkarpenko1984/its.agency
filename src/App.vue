@@ -1,17 +1,18 @@
-<template>  
-  <h1>Test</h1>
+<template>
+  <div>
+    <PaintsPage />
+  </div>
 </template>
 
 <script>
+  import PaintsPage from './pages/PaintsPage.vue';
 
 
-export default {
-  name: 'App',
-  components: {
+  export default {
+    components: { PaintsPage}
   }
-}
 </script>
 
-<style lang="scss">
-#app {}
+<style lang="scss" scoped>
+
 </style>
