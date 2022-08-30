@@ -22,6 +22,11 @@ h6 {
     font-size: 12px;
 }
 
+button {
+    outline: none;
+    border: none;
+}
+
 @font-face {
     font-family: 'TTHoves';
     src: local('TTHoves-Regular'), url('~@/assets/fonts/TTHoves-Regular.woff2') format('woff2'), url('~@/assets/fonts/TTHoves-Regular.woff') format('woff');

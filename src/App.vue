@@ -1,15 +1,15 @@
 <template>
   <div>
-    <PaintsPage />
+    <BasicLayout />
   </div>
 </template>
 
 <script>
-  import PaintsPage from './pages/PaintsPage.vue';
+  import BasicLayout from './BasicLayout.vue';
 
 
   export default {
-    components: { PaintsPage}
+    components: { BasicLayout}
   }
 </script>
 
